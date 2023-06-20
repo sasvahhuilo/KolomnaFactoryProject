@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css\login.css">
+  <title>ВХОД В ЛИЧНЫЙ КАБИНЕТ</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <div class="form-title">
+        <h1 class="login">ВХОД В ЛИЧНЫЙ КАБИНЕТ</h1>
+        <p class="text">Пожалуйста введите свои данные.</p>
+      </div>
+      <div class="form-field-input">
+        <form action="index.html">
+          <div class="inputs">
+            <input type="name" placeholder="Логин" class="input">
+            <input type="password" id="password" placeholder="Пароль" minlength="8" class="input" minlength="4" maxlength="16"
+              required="required">
+          </div>
+          <a href="" class="a">Забыл пароль?</a>
+          
+          <div class="form-field">
+            <button class="buttons" type="submit">Войти</button>
+          </form>
+            <p>или</p>
+            <button class="buttons" type="submit" onclick="document.location='register.html'">Создать аккаунт</button>
+          </div>
+        
+      </div>
+  
+    </div>
+    <div class="block-one-button">
+      <button class="button-block" onclick="document.location='index.html'">
+        <span class="block-button-text">ВЕРНУТЬСЯ НАЗАД</span>
+      </button>
+    </div>
+  </div>
+</body>
+</html>

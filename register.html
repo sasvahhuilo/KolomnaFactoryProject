@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css\register.css">
+  <title>РЕГИСТРАЦИЯ</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <div class="form-title">
+        <h1 class="login">РЕГИСТРАЦИЯ</h1>
+        <p class="text">Пожалуйста введите свои данные.</p>
+      </div>
+      <div class="form-field-input">
+        <form action="index.html"><div class="inputs">
+          <input type="text" id="emailAddress" placeholder="Ваше имя" class="input" required="required">
+          <input type="email" id="emailAddress" placeholder="Логин" class="input" required="required">
+          <input type="password" id="password" placeholder="Пароль" minlength="8" class="input" minlength="4" maxlength="16"
+            required="required">
+          <input type="password" id="password" placeholder="Повторите пароль" minlength="8" class="input" minlength="4"
+            maxlength="16" required="required">
+        </div>
+        
+        <div class="form-field">
+          <button class="buttons">Создать аккаунт</button>
+        </div></form>
+      </div>
+    </div>
+    <div class="block-one-button">
+      <button class="button-block" onclick="document.location='login.html'">
+        <span class="block-button-text">ВЕРНУТЬСЯ НАЗАД</span>
+      </button>
+    </div>
+  </div>
+</body>
+</html>
